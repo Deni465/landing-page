@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: "Exo 2", sans-serif;
+  padding: 1em;
+  background-color: white;
+}
+
+#header-img {
+  width: 774px;
+}
+
+#nav-bar {
+  overflow: hidden;
+  background-color: rgb(29, 118, 153);
+  position: fixed;
+  width: 774px;
+}
+
+@media screen and (max-width: 600px) {
+  #nav-bar {
+    flex-direction: coloumn;
+  }
+}
+
+#video {
+  padding-top: 160px;
+  padding-left: 32px;
+  overflow: hidden;
+}
+
+#form {
+  padding-left: 10px;
+}
+
+.nav-link {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
